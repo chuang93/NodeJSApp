@@ -49,5 +49,6 @@ var holder = require('./alternate'); /*variable "holder" has all of the exported
 Charles.restZero = holder.zeroCreator();
 console.log("Charles was reset by the export lifepoints to: " +Charles.restZero); /*NEED TO REMEMBER THE PARANTHESES TO INITIALIZE ANY METHOD */
 
-/*IF SOMETHING IS A FUNCCTION LIKE ZEROCREATOR() IT REQUIRES DOUBLE PARANTHESES.
+/*IF SOMETHING IS A FUNCTION LIKE ZEROCREATOR() IT REQUIRES DOUBLE PARANTHESES.
  * IF SOMETHING IS A FIELD IN A FUNCTION OR CLASS IT DOES NOT LIKE CHARLES.RESTZERO!*/
+

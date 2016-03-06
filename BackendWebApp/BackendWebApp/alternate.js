@@ -7,6 +7,7 @@ zeroCreator: function () {
 /*zeroLife is essentially a public method that can be used in other classes
  * while private Object remains only usable within this module*/
 
+
 };
 
 var privateFunctions = {

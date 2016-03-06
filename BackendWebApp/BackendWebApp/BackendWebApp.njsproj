@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ca9744b2-3529-434c-bdc6-c3f58c36090e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>functions.js</StartupFile>
+    <StartupFile>User Simulation\main.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,9 +32,17 @@
   <ItemGroup>
     <Compile Include="alternate.js" />
     <Compile Include="functions.js" />
+    <Compile Include="Sharing.js" />
     <Compile Include="server.js" />
+    <Compile Include="User Simulation\main.js" />
+    <Compile Include="User Simulation\objects.js" />
+    <Compile Include="User Simulation\User1.js" />
+    <Compile Include="User Simulation\User2.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="User Simulation\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
