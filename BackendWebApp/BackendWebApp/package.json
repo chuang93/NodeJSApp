@@ -1,0 +1,10 @@
+{
+  "name": "BackendWebApp",
+  "version": "0.0.0",
+  "description": "BackendWebApp",
+  "main": "server.js",
+  "author": {
+    "name": "Charles Huang",
+    "email": ""
+  }
+}
