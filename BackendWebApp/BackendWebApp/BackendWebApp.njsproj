@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ca9744b2-3529-434c-bdc6-c3f58c36090e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>User Simulation\main.js</StartupFile>
+    <StartupFile>server.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
