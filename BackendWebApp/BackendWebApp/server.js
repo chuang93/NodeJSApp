@@ -7,10 +7,6 @@
 //app.listen(6969);
 
 
-//var express = require('express');
-var connect = require('connect');
-var http = require('http');
-var fs = require('fs');
 
 // build a 404 response message for "Page Cannot be Found"
 
