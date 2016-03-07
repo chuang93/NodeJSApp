@@ -8,6 +8,7 @@
 
 
 //var express = require('express');
+var connect = require('connect');
 var http = require('http');
 var fs = require('fs');
 
@@ -32,16 +33,7 @@ function onRequest(request, response) {
 		sendpageNotFound(response);
 		console.log("unsuccessful GET request, redirected to 404 page");
 	}
-//create object "request" which will contain information about the user request, and response which will
-//contain information about the user response.
-	
-//	response.writehead(200, { "content-type": "text/plain" });
-//	 send back a response with the header 200 status code (everything ok), and then the content is
-//	 an object so you need to have the attributes and the values for each attribute in colon form.
-//	response.write("here is some data");
-//	 after writehead we use response.write to send the body of the response.
 
-//	 when you run you are effectively sending a request?
 }
 
 http.createServer(onRequest).listen(6969);
